@@ -1,0 +1,145 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.App {
+  font-family: sans-serif;
+  background-color: #0f172a;
+}
+
+.navlink {
+  margin: 0 10px;
+  color: white;
+  text-decoration: none;
+  font-size: 24px;
+}
+
+.navlink:hover {
+  font-size: 26px;
+  color: #fde047;
+  font-weight: bold;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  padding: 0;
+  gap: 1rem;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+li {
+  width: 250px;
+  border: 2px solid white;
+  margin: 0 15px;
+  padding: 10px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+img {
+  width: 100%;
+}
+
+nav {
+  display: flex;
+  background-color: #450a0a;
+  padding: 2rem;
+  justify-content: space-evenly;
+}
+
+.home {
+  color: #fde047;
+  text-align: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 150px 80px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("https://media.istockphoto.com/id/1227415751/photo/full-table-of-italian-meals-on-plates-pizza-pasta-ravioli-carpaccio-caprese-salad-and-tomato.jpg?s=612x612&w=0&k=20&c=0qCRhYGQw0w6ahhVX-4ezayA9r81A81cwbPDbgRlC5s=");
+}
+
+.menu-btn {
+  background-color: #fde047;
+  padding: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+}
+
+.menu-btn:hover {
+  padding: 15px;
+}
+
+.menu-navlink {
+  text-decoration: none;
+  color: #450a0a;
+  font-size: 24px;
+}
+
+.menu {
+  color: white;
+  margin: 25px;
+  min-height: 100vh;
+  padding-bottom: 50px;
+  margin: 0;
+}
+
+input {
+  padding: 10px 40px;
+  border-radius: 5px;
+}
+
+.filters {
+  margin: 10px 0;
+}
+
+.cart-btn {
+  background-color: #fde047;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  color: #450a0a;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.cart-btn:hover {
+  font-size: 18px;
+}
+
+.filter-div {
+  text-align: center;
+}
+
+.cart {
+  text-align: center;
+  color: white;
+  min-height: 100vh;
+  padding-bottom: 50px;
+}
+
+.cart button {
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.cart button:hover {
+  font-size: 18px;
+}
+
+.cart li {
+  text-align: left;
+}
