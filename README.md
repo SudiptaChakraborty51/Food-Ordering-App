@@ -10,7 +10,7 @@ Created with CodeSandbox
 ## Cart Page
 ![image](https://user-images.githubusercontent.com/76644901/236677802-dde2dfb9-78b8-48f6-894b-93babf20b792.png)
 
-## After remiving one item from cart and appling coupon
+## After removing one item from cart and appling coupon
 ![image](https://user-images.githubusercontent.com/76644901/236677866-bf8fecb4-9a9f-46a2-a7ae-84e136bef719.png)
 
 ## when the cart is empty
